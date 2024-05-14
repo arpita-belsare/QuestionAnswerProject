@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: grid;
+    background: rgb(227, 226, 237);
+    place-items: center;
+}
+.section-center{
+    width: 35%;
+    height: 25rem;
+    border: 2px solid rgb(27, 94, 41);
+    border-radius: 1em;
+    background: rgb(215, 222, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 2%;
+    overflow-y: auto;
+}
+article {
+    margin: 1rem;
+    width: 100%;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem;
+  font-weight:bolder;
+}
+.question-title{
+    color: red;
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+}
+.question-text{
+    font-size: 1em;
+    color: rgb(26, 26, 227);
+}
+.question-text p{
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+.question-text{
+    display: none;
+}
+.show-text .question-text{
+    display: block;
+}
+.question-btn{
+     border: none;
+     background: transparent;
+}
+.plus-icon >i ,.minus-icon{
+    font-size: 1.5em;
+    color:green;
+    border: none;
+}
+ .minus-icon{
+color:rgb(230, 151, 14);
+}
+.show-text .show-text{
+    display: inline;
+}
+.show-text .plus-icon{
+    display: none;
+}
+
+
+
+/* Media query for iPhone 14 */
+@media only screen and (max-device-height: 544px) {
+    /* Resetting defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section */
+section {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: grid;
+    background: rgb(227, 226, 237);
+    place-items: center;
+}
+
+/* Section Center */
+.section-center {
+    width: 90%; 
+    max-width: 400px; 
+    height: 25rem; 
+    border: 2px solid rgb(27, 94, 41);
+    border-radius: 1em;
+    background: rgb(215, 222, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    overflow-y: auto;
+}
+
+/* Article */
+article {
+    margin: 1rem;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem; 
+    font-weight: bolder;
+}
+
+/* Question Title */
+.question-title {
+    color: red;
+    font-size: 1.2rem; 
+    font-family: "Poppins", sans-serif;
+}
+
+/* Question Text */
+.question-text {
+    font-size: 1rem; 
+    color: rgb(26, 26, 227);
+    display: none;
+}
+
+.question-text p {
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Show Text */
+.show-text .question-text {
+    display: block;
+}
+
+/* Question Button */
+.question-btn {
+    border: none;
+    background: transparent;
+}
+
+/* Plus Icon and Minus Icon */
+.plus-icon > i,
+.minus-icon {
+    font-size: 1.5rem; 
+    color: green;
+    border: none;
+}
+
+.minus-icon {
+    color: rgb(230, 151, 14);
+}
+
+.show-text .plus-icon {
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
